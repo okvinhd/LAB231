@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Document   : Head file CSS
+    Created on : Oct 19, 2021, 7:06:31 PM
+    Author     : VinhNM
+*/
+
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    background-color: black;
+}
+
+.link-item{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    margin: auto 0;
+    margin-left: 20px;
+    text-decoration: none;
+}
