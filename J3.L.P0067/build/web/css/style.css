@@ -1,0 +1,536 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 3, 2021, 12:39:02 AM
+    Author     : VinhNM
+*/
+
+/*header*/
+html{
+    font-family: 'arial' !important;
+}
+body{
+    font-family: 'arial' !important;}
+.menu-header{
+    display: flex;
+    background-color: black;
+    align-items: center;  
+
+}
+.menu-header a{
+    width: auto;
+    height: min-content;
+}
+image-header{
+    height: 20px;
+    width: auto;
+}
+.side-menu-header{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.center-menu-header{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.link-item-header{
+    margin-left:20px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+header{
+    margin-top: 10px;
+    display: flex;
+    overflow: hidden;
+}
+ul {
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: #198754;
+    color: white;
+    border-radius: 5px;
+}
+#alwaysHover{
+    background-color: #198754;
+    color: white;
+    border-radius: 5px;
+}
+/*footer*/
+.footer{
+    margin-top: 50px !important;
+    width: 94%;
+    background-color: #393939;
+    padding: 3%;
+}
+
+.main-footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.footer-title{
+    color: #198754;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.footer-left{
+    width: 30%;
+}
+.footer-left div{
+    display: flex;
+    justify-content: center;
+}
+.footer-left i{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.img-contact{
+    display: block;
+    width: 20px;
+    margin: 0 auto;
+}
+
+.footer-center{
+    width: 30%;
+}
+
+.footer-right{
+    width: 30%;
+}
+
+.footer-text{
+    color: white;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.copyright{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+/*main*/
+body{
+    margin: 0px;
+}
+
+img-upload {
+    max-width: 100%;
+    height: auto;
+}
+.error-text{
+    font-size: 30px;
+    font-weight: bold;
+    width: 12%;
+    margin: 190px auto;
+}
+
+.fake-btn-save{
+    text-align: center;
+    line-height: 34px;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.menu{
+    width: 50%;
+    margin: 50px auto;
+}
+
+.item-menu{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.select-item{
+    font-size: 18px;
+    border: 1px solid #198754;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #198754;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.title-page{
+    width: 60%;
+    margin: 30px auto;
+    border-bottom: 1px solid lightgray;
+}
+
+h1{
+    width: 120px;
+    margin: 30px auto;
+}
+
+.search{
+    width: 55%;
+    display: flex;
+    margin: 30px auto;
+}
+
+.one-box{
+    display: flex;
+    margin-right: 30px;
+}
+
+.box-search{
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.txt-box{
+    width: 100px;
+    height: 34px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.combo-box{
+    width: 130px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.btn-search{
+    width: 60px;
+    height: 40.6px;
+    background-color: #198754;
+    border: 1px solid #198754;
+    border-radius: 5px;
+}
+
+.image-search{
+    width: 15px;
+    height: auto;
+    margin: auto;
+}
+
+.btn-add{
+    width: 150px;
+    height: 40.6px;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 19px;
+}
+.btn-add i{
+    margin-right: 6px;
+}
+
+.btn-add div{
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    line-height: 41.6px;
+}
+
+.title-list{
+    padding-left: 5px;
+    font-weight: bold;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.space-list{
+    width: 80%;
+    margin: auto;
+}
+
+.list{
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.title-center{
+    text-align: center;
+}
+
+.text-service{
+    padding-left: 5px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.row-item{
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.button-edit{
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+}
+
+.form-popup {
+    width: 440px;
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: 35%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.header-popup{
+    width: 450px;
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    margin: 10px auto;
+}
+
+.main-popup{
+    width: 450px;
+    border-bottom: 1px solid lightgray;
+    margin: 10px auto;
+    padding-bottom: 10px;
+}
+
+.title-popup{
+    font-weight: bold;
+    line-height: 30.4px;
+    margin-left: 20px;
+    margin-right: 280px;
+}
+
+.box-popup{
+    margin-left: 20px;
+    display: block;
+    width: 379px;
+    height: 30px;
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.combobox-popup{
+    margin-left: 20px;
+    display: block;
+    width: 403px;
+    height: 42px;
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.button-close{
+    width: 10px;
+    height: 15px;
+    padding: 5px;
+    border: 1px outset black;
+    background-color: lightgray;
+    margin-bottom: 15px;
+}
+
+#overlay{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 80%;
+}
+
+.text-file{
+    display: block;
+    width: 100%;
+    margin-left: 30%;
+}
+
+.choose-file{
+    position: fixed;
+    top: 13%;
+    left: 40%;
+    opacity: 0;
+}
+
+.footer-popup{
+    margin-left: 20px;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.btn-save{
+    height: 32px;
+    width: 55px;
+    background-color:  #198754;
+    color: white;
+    border: 1px solid  #198754;
+    border-radius: 2px;
+    font-size: 16px;
+    margin-left: 260px;
+}
+
+.btn-back{
+    position: absolute;
+    right: 30px;
+    height: 30px;
+    width: 55px;
+    background-color: gray;
+    color: white;
+    border: 1px solid gray;
+    border-radius:2px;
+    text-align: center;
+    line-height: 30px;
+    padding: 1px;
+}
+
+.keepLine{
+    margin-top: 20px !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nofi-error{
+    display: inline;
+    margin-left: 30%;
+}
+
+.warning{
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.fa-search:before {
+    font-size: 20px;
+    color: white;
+}
+.image-add{
+    width: auto;
+    height: 50px;
+}
+.image-short{
+    width: auto;
+    height: 100px;
+}
+
+
+.number-page{
+    padding: 5px 14px;
+    border: 1px solid white;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    border-radius: 50%;
+    text-decoration: none;
+    line-height: 26.4px;
+    margin: 5px;
+}
+
+.number-page-select{
+    border: 1px solid #198754;
+    background-color: #198754;
+    border-radius: 50%;
+    color: white;
+    padding: 5px 14px;
+    font-weight: bold;
+    line-height: 26.4px;
+    margin: 5px ;
+}
+
+.btn-pagging{
+    padding: 0 5px;
+    margin: 5px;
+    height: 36.4px;
+    line-height: 36.4px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #198754;
+    background-color: #198754;
+    color: white;
+    border-radius: 20px;
+}
+
+
+#snackbar {
+    /*    visibility: hidden;*/
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 3;
+    left: 50%;
+    top:30px;
+    font-size: 17px;
+}
+.error-system{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 100px auto;
+}
+#snackbar.show {
+    /*    visibility: visible;*/
+}
+#snackbar.background {
+    background-color: red;
+}

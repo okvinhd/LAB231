@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 11, 2021, 4:51:04 PM
+    Author     : VinhNM
+*/
+
+html{
+    font-family: 'arial' !important;
+}
+body{
+    margin: 0;
+    font-family: 'arial' !important;
+}
+
+.footer{
+    width: 94%;
+    background-color: #393939fa;
+    padding: 3%;
+}
+
+.main-footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.footer-title{
+    font-family: sans-serif;
+    color: #05c005;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.footer-left{
+    width: 30%;
+}
+
+.img-contact{
+    display: block;
+    width: 20px;
+    margin: 0 auto;
+}
+
+.footer-center{
+    width: 30%;
+}
+
+.footer-right{
+    width: 30%;
+}
+
+.footer-text{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.copyright{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+.info-copy{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    line-height: 40px;
+}
